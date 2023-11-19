@@ -1,0 +1,35 @@
+.blog-post {
+    background-color: #fff8e7;
+    h1 {
+        margin-bottom: 2rem;
+        font-family: Lato, sans-serif;;
+    }
+    .article {
+        &-content{
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            h3 {
+                margin-top: 0.5rem;
+            }
+            p {
+                margin-bottom: 0rem;
+                }
+        }
+        &-author {
+            margin-top: 2rem;
+        }
+    }
+}
+@keyframes fadeInOutAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fadeInOut {
+    animation: fadeInOutAnimation 0.5s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+  }
